@@ -1,7 +1,7 @@
 class Locations {
   String name;
   String tag;
-  String imageLink;
+  List<String> imageLink;
   String description;
   List<String>? itinerary;
 
