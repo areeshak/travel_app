@@ -3,13 +3,13 @@ class Locations {
   String tag;
   List<String> imageLink;
   String description;
-  List<String>? itinerary;
+  List<String> itinerary;
 
   Locations({
     required this.name,
     required this.tag,
     required this.imageLink,
     required this.description,
-    this.itinerary,
+    required this.itinerary,
   });
 }

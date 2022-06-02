@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:travel_app/views/locationDetails.dart';
 import '../entities/locations.dart';
 
@@ -89,9 +90,9 @@ class _ExploreScreenState extends State<ExploreScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text(
+        title: Text(
           "Explore",
-          style: TextStyle(
+          style: GoogleFonts.satisfy(
             fontSize: 35,
             fontWeight: FontWeight.bold,
           ),
